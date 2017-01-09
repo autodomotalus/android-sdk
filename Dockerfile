@@ -11,7 +11,7 @@ RUN curl -L ${GRADLE_URL} -o /tmp/gradle-2.2.1-all.zip && unzip /tmp/gradle-2.2.
 ENV GRADLE_HOME /usr/local/gradle-2.2.1
 
 # Download and untar SDK
-ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r25.0.3-linux.tgz
+ENV ANDROID_SDK_URL http://dl.google.com/android/android-sdk_r24.0.2-linux.tgz
 RUN curl -L ${ANDROID_SDK_URL} | tar xz -C /usr/local
 ENV ANDROID_HOME /usr/local/android-sdk-linux
 
