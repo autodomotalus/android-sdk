@@ -1,3 +1,7 @@
+FROM autodomotalus/base:latest
+
+MAINTAINER Autodomotalus <https://github.com/autodomotalus>
+
 ENV DEBIAN_FRONTEND noninteractive
 
 # Dependencies
